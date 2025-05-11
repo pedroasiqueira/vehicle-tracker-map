@@ -14,7 +14,7 @@ const containerStyle = {
 };
 
 const defaultCenter = {
-    lat: -23.55052,
+    lat: -21.55052,
     lng: -46.633308
 };
 
@@ -37,7 +37,7 @@ const VehicleMap: React.FC = () => {
             <GoogleMap
                 mapContainerStyle={containerStyle}
                 center={defaultCenter}
-                zoom={7}
+                zoom={6}
             >
                 {!isLoading &&
                 allVehicles?.length &&
