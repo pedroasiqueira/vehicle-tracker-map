@@ -89,7 +89,7 @@ const VehicleList: React.FC<VehicleListProps> = ({ scrollContainerId }) => {
   
   return (
     <table className="w-full text-sm border-collapse">
-      <thead className="sticky top-0 z-10">
+      <thead className="sticky top-0 z-10 shadow-md after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-slate-600">
         <tr className="bg-[#002D44] border-b border-slate-700">
           <th className="py-3 px-4 font-semibold text-left">Placa</th>
           <th className="py-3 px-4 font-semibold text-left">Frota</th>
